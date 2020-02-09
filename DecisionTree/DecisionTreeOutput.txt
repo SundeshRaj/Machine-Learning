@@ -1,0 +1,192 @@
+================================
+= Displaying the Decision Tree =
+================================
+Is cap-color == y?
+--> True:
+  Predict {'e': 27}
+--> False:
+  Is bruises == t?
+  --> True:
+    Is cap-shape == b?
+    --> True:
+      Predict {'e': 7}
+    --> False:
+      Is cap-shape == x?
+      --> True:
+        Is cap-color == w?
+        --> True:
+          Is cap-surface == y?
+          --> True:
+            Predict {'e': 2, 'p': 17}
+          --> False:
+            Predict {'e': 2, 'p': 5}
+        --> False:
+          Is cap-surface == y?
+          --> True:
+            Predict {'e': 3, 'p': 12}
+          --> False:
+            Predict {'p': 11}
+      --> False:
+        Predict {'p': 5}
+  --> False:
+    Predict {'e': 9}
+
+
+==================================
+Predictions for Training Dataset!!
+==================================
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: e. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: p. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+
+
+==============================
+Predictions for Test Dataset!!
+==============================
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'p': '100%'}
+Actual Value: p. Predicted Value: {'e': '20%', 'p': '80%'}
+Actual Value: p. Predicted Value: {'e': '28%', 'p': '71%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: p. Predicted Value: {'e': '10%', 'p': '89%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'p': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'e': '100%'}
+Actual Value: e. Predicted Value: {'p': '100%'}
